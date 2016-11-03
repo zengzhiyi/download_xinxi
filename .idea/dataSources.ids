@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - swjtu@localhost" uuid="de2b5a04-4a37-4bfd-b628-1ed9f98faf34">
+    <database-info product="MySQL" version="5.6.17" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+      <schema id="1" name="swjtu">
+        <visible>1</visible>
+      </schema>
+      <schema id="2" name="information_schema"/>
+      <schema id="3" name="mysql"/>
+      <schema id="4" name="performance_schema"/>
+      <schema id="5" name="stock_info"/>
+      <schema id="6" name="v2ex"/>
+      <table id="7" parent="1" name="course"/>
+      <table id="8" parent="1" name="plan"/>
+      <table id="9" parent="1" name="xinxi"/>
+      <column id="10" parent="7" name="class_name">
+        <mandatory>1</mandatory>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="11" parent="7" name="credit">
+        <mandatory>1</mandatory>
+        <data-type>float|0</data-type>
+      </column>
+      <column id="12" parent="7" name="properties">
+        <mandatory>1</mandatory>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="13" parent="7" name="teacher_name">
+        <mandatory>1</mandatory>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="14" parent="7" name="college_given">
+        <mandatory>1</mandatory>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="15" parent="7" name="classroom">
+        <data-type>text|0</data-type>
+      </column>
+      <column id="16" parent="8" name="course_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="17" parent="8" name="course_name">
+        <mandatory>1</mandatory>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="18" parent="8" name="proper">
+        <mandatory>1</mandatory>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="19" parent="8" name="credit">
+        <mandatory>1</mandatory>
+        <data-type>float|0</data-type>
+      </column>
+      <column id="20" parent="8" name="practiceCredit">
+        <mandatory>1</mandatory>
+        <data-type>float|0</data-type>
+      </column>
+      <column id="21" parent="8" name="whoGiven">
+        <mandatory>1</mandatory>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="22" parent="8" name="years">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="23" parent="8" name="semeter">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="24" parent="9" name="date">
+        <mandatory>1</mandatory>
+        <data-type>datetime|0</data-type>
+      </column>
+      <column id="25" parent="9" name="title">
+        <mandatory>1</mandatory>
+        <data-type>char(50)|0</data-type>
+      </column>
+      <column id="26" parent="9" name="link">
+        <mandatory>1</mandatory>
+        <data-type>char(80)|0</data-type>
+      </column>
+    </database-model>
+  </data-source>
+</component>
